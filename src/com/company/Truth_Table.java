@@ -11,19 +11,24 @@ public class Truth_Table {
                 "|" +
                 "^");
 
-        System.out.println ("Я могу составить таблицу истиности");
-        System.out.println ("X 1 действие Y 2 действие Z");
-        System.out.println (" Ведите цифру стоящею рядом с нужным действием");
-        System.out.println ("вводите сначало 1 действие затем 2");
-        System.out.println ("&");
-        System.out.println ("|");
-        System.out.println ("^");
+        System.out.println("Я могу составить таблицу истиности");
+        System.out.println("X 1 действие Y 2 действие Z");
+        System.out.println(" Ведите цифру стоящею рядом с нужным действием");
+        System.out.println("вводите сначало 1 действие затем 2");
+        System.out.println("1 &");
+        System.out.println("2 |");
+        System.out.println("3 ^");
 
-        String save = scanner.nextLine ();
-        for ( String line2 = "0"; ;  )
-        { line2 = scanner.nextLine();
 
-        }
+        Scanner save = new Scanner(System.in);
+        String line = "0";
+        int scan = save.nextInt ();
 
-            }
+        if (scan == 1);
+        String first = "&"
+        System
+        else (scan == 2);
+
+
+    }
 }
