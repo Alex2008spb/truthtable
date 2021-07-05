@@ -19,11 +19,11 @@ public class Truth_Table {
         System.out.println ("|");
         System.out.println ("^");
 
-        String save = "1321";
+        String save = "";
         save = scanner.nextLine ();
-        for ( String line2 = "0123"; ;  )
-        {
-        line2 = scanner.nextLine();
+        for ( String line2 = "0"; ;  )
+        { line2 = scanner.nextLine();
+
         }
 
             }
