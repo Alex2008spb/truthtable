@@ -1,4 +1,5 @@
 package com.company;
+import java.util.Scanner;
 
 public class Main {
 
@@ -26,3 +27,4 @@ public class Main {
         System.out.println (" 4  " + true + "  " + true + "     " + (true ^ true));
     }
 }
+
