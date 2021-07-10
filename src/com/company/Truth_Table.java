@@ -22,13 +22,34 @@ public class Truth_Table {
 
         Scanner save = new Scanner(System.in);
         String line = "0";
-        int scan = save.nextInt ();
+        int scan = save.nextInt();
+        String xore = "134";
 
-        if (scan == 1);
-        String first = "&"
-        System
-        else (scan == 2);
+        if (scan == 1) {
+            xore = "&";
+        } else {
+            if (scan == 2) {
+                xore = "|";
+            } else {
+                if (scan == 3) {
+                    xore = "^";
 
 
+                }
+                System.out.println("X "+xore+"Y 2 действие Z");
+
+                int scan = save.nextInt();
+                String xore1 = "134";
+
+                if (scan == 1) {
+                    xore1 = "&";
+                } else {
+                    if (scan == 2) {
+                        xore1 = "|";
+                    } else {
+                        if (scan == 3) {
+                            xore1 = "^";
+            }
+        }
     }
 }
